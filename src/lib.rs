@@ -6,8 +6,8 @@
 
 #[cfg(test)] mod unit_tests;
 
-extern crate num;
-use self::num::Num;
+extern crate num_traits;
+use num_traits::Num;
 use std::ops::{AddAssign, SubAssign};
 
 pub trait Increment<T> {
